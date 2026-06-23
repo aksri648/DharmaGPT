@@ -25,6 +25,10 @@ dependencies = [
     "numpy>=1.26",
 ]
 
+[tool.setuptools.packages.find]
+include = ["app*"]
+exclude = ["data*", "frontend*", "scripts*", "tests*"]
+
 [tool.ruff]
 line-length = 100
 target-version = "py312"
