@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Hanuman discovers his power",
+    "source": "Ramayana",
+    "book": "Kishkindha Kanda",
+    "chapter": 3,
+    "summary": "Hanuman had forgotten his divine strength due to a curse in childhood. When Jambavan reminded him of his true potential, Hanuman remembered who he was and crossed the ocean in a single leap, demonstrating that self-belief unlocks hidden power.",
+    "teaching": "We often forget our own strength when faced with challenges. A reminder from a trusted source can help us rediscover our capabilities. The power was always within Hanuman — he just needed to remember it.",
+    "themes": ["courage", "self_belief", "resilience"],
+    "emotions": ["self_doubt", "fear", "confidence"],
+    "characters": ["Hanuman", "Jambavan"],
+    "category": "mental_health"
+  },
+  {
+    "title": "Rama accepts exile",
+    "source": "Ramayana",
+    "book": "Ayodhya Kanda",
+    "chapter": 10,
+    "summary": "Prince Rama was to be crowned king, but instead was exiled to the forest for 14 years due to a promise his father made. Rama accepted his fate without resentment, showing that duty and honor matter more than personal ambition.",
+    "teaching": "Life often presents unexpected detours from our planned path. Responding with grace and dignity, trusting the larger purpose, transforms a setback into a testament of character.",
+    "themes": ["duty", "detachment", "resilience"],
+    "emotions": ["sadness", "confusion", "acceptance"],
+    "characters": ["Rama", "Sita", "Lakshmana", "Dasharatha"],
+    "category": "career"
+  },
+  {
+    "title": "Arjuna's crisis before war",
+    "source": "Bhagavad Gita",
+    "book": "Bhishma Parva",
+    "chapter": 1,
+    "summary": "Before the great war of Kurukshetra, Arjuna saw his teachers, relatives, and friends on the opposing side. Overcome with grief and confusion, he threw down his bow and refused to fight, questioning the very meaning of duty.",
+    "teaching": "Even the strongest warriors face moments of doubt and moral crisis. True strength lies not in never feeling fear, but in moving forward with clarity after seeking guidance.",
+    "themes": ["duty", "purpose", "courage"],
+    "emotions": ["confusion", "fear", "grief", "guilt"],
+    "characters": ["Arjuna", "Krishna"],
+    "category": "ethics"
+  },
+  {
+    "title": "Vibhishana's choice",
+    "source": "Ramayana",
+    "book": "Yuddha Kanda",
+    "chapter": 6,
+    "summary": "Vibhishana, brother of the demon king Ravana, chose to abandon his brother and side with Rama because he believed in righteousness over blood loyalty. He chose dharma over family ties.",
+    "teaching": "Sometimes doing the right thing means standing against those closest to us. Loyalty to truth and justice must eventually override blind loyalty to people.",
+    "themes": ["truth", "courage", "ethics"],
+    "emotions": ["confusion", "guilt", "loneliness"],
+    "characters": ["Vibhishana", "Ravana", "Rama"],
+    "category": "ethics"
+  },
+  {
+    "title": "Sita's agni pariksha",
+    "source": "Ramayana",
+    "book": "Yuddha Kanda",
+    "chapter": 6,
+    "summary": "After being rescued from Ravana, Sita underwent a trial by fire to prove her purity. The fire god himself returned her unharmed, validating her unwavering integrity through the ordeal.",
+    "teaching": "When your character is questioned unjustly, remain grounded in your truth. Time and integrity will eventually reveal what is genuine. External validation is less important than inner purity.",
+    "themes": ["truth", "patience", "resilience"],
+    "emotions": ["sadness", "anger", "frustration"],
+    "characters": ["Sita", "Rama"],
+    "category": "relationships"
+  },
+  {
+    "title": "Krishna's Vishwarupa Darshana",
+    "source": "Bhagavad Gita",
+    "book": "Bhishma Parva",
+    "chapter": 11,
+    "summary": "When Arjuna asked Krishna to prove his divinity, Krishna revealed his cosmic form — containing all of existence, past, present, and future. Arjuna saw everything happening at once and understood the vastness of the cosmic order.",
+    "teaching": "Our problems appear overwhelming only because we see them from a limited perspective. When we expand our view to see the bigger picture, individual worries diminish in significance.",
+    "themes": ["faith", "purpose", "surrender"],
+    "emotions": ["fear", "confusion", "hopelessness"],
+    "characters": ["Krishna", "Arjuna"],
+    "category": "purpose"
+  },
+  {
+    "title": "The Yaksha Prashna",
+    "source": "Mahabharata",
+    "book": "Aranyaka Parva",
+    "chapter": 13,
+    "summary": "When the Pandava brothers died one by one drinking from a lake, Yudhishthira reached the shore. A Yaksha (celestial being) questioned him on dharma. Yudhishthira answered wisely, and his brothers were revived. The Yaksha revealed himself as Dharma, his father.",
+    "teaching": "Wisdom comes not from knowing everything, but from understanding the principles of dharma that govern life. Right action flows from right understanding.",
+    "themes": ["truth", "humility", "knowledge", "discipline"],
+    "emotions": ["confusion", "fear", "grief"],
+    "characters": ["Yudhishthira"],
+    "category": "ethics"
+  }
+]

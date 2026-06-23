@@ -1,0 +1,52 @@
+[
+  {
+    "book": "Ayodhya Kanda",
+    "chapter": 10,
+    "text": "Rama, hearing the words of his father King Dasharatha, accepted the exile to the forest for fourteen years without any resentment. He considered it his duty to uphold his father's honor.",
+    "translation": "Rama heard his father's command and bowed his head in acceptance. He said, 'I shall go to the forest willingly. I seek only your blessings.'",
+    "themes": ["duty", "detachment", "resilience"],
+    "emotions": ["sadness", "confusion"],
+    "character": "Rama",
+    "category": "career"
+  },
+  {
+    "book": "Aranya Kanda",
+    "chapter": 1,
+    "text": "During their exile, Rama, Sita, and Lakshmana encountered many sages in the forest who shared wisdom about dharma, patience, and the purpose of life.",
+    "translation": "The sages taught that adversity is a teacher, and that forest life with its challenges builds character and spiritual strength.",
+    "themes": ["purpose", "patience", "humility"],
+    "emotions": ["confusion", "sadness"],
+    "character": "Rama",
+    "category": "purpose"
+  },
+  {
+    "book": "Kishkindha Kanda",
+    "chapter": 3,
+    "text": "Jambavan reminded Hanuman of his divine powers, saying, 'You are the son of Vayu, the wind god. You possess strength beyond imagination. Why do you doubt yourself?'",
+    "translation": "Hanuman, upon hearing this, remembered his true nature. His body swelled with energy and he grew to a tremendous size, ready to leap across the ocean.",
+    "themes": ["courage", "resilience", "self_belief"],
+    "emotions": ["self_doubt", "fear", "confidence"],
+    "character": "Hanuman",
+    "category": "mental_health"
+  },
+  {
+    "book": "Sundara Kanda",
+    "chapter": 1,
+    "text": "Hanuman leaped across the vast ocean, demonstrating that faith and self-belief can overcome any obstacle. During his flight, mountains rose to offer him rest, and the ocean creatures respected his mission.",
+    "translation": "Hanuman flew across the ocean with unwavering focus, his mind fixed only on finding Sita and delivering Rama's message of hope.",
+    "themes": ["courage", "faith", "purpose"],
+    "emotions": ["fear", "confidence"],
+    "character": "Hanuman",
+    "category": "purpose"
+  },
+  {
+    "book": "Yuddha Kanda",
+    "chapter": 6,
+    "text": "Vibhishana, though born a rakshasa, chose righteousness over family loyalty. He advised Ravana to return Sita, and when his advice was rejected, he joined Rama's side.",
+    "translation": "Vibhishana said, 'I choose dharma over adharma, truth over falsehood, and righteousness over family ties. This is the path of wisdom.'",
+    "themes": ["truth", "courage", "ethics"],
+    "emotions": ["confusion", "guilt", "loneliness"],
+    "character": "Vibhishana",
+    "category": "ethics"
+  }
+]

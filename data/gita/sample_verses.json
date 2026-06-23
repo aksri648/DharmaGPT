@@ -1,0 +1,103 @@
+[
+  {
+    "chapter": 2,
+    "verse": 47,
+    "text": "मा फलेषु कदाचन",
+    "translation": "You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself to be the cause of the results of your activities, nor be attached to inaction.",
+    "speaker": "Krishna",
+    "themes": ["duty", "detachment", "action"],
+    "emotions": ["anxiety", "fear", "confusion"],
+    "character": "Krishna",
+    "category": "career"
+  },
+  {
+    "chapter": 2,
+    "verse": 48,
+    "translation": "Perform your duties equipoised, O Arjuna, abandoning all attachment to success or failure. Such equanimity is called yoga.",
+    "speaker": "Krishna",
+    "themes": ["detachment", "discipline"],
+    "emotions": ["anxiety", "stress"],
+    "character": "Krishna",
+    "category": "career"
+  },
+  {
+    "chapter": 2,
+    "verse": 56,
+    "translation": "One who is not disturbed by the threefold miseries, who is not elated by happiness nor dejected by distress, and who is free from attachment, fear, and anger — such a sage is called a man of steady wisdom.",
+    "speaker": "Krishna",
+    "themes": ["resilience", "self_control"],
+    "emotions": ["anger", "fear", "sadness"],
+    "character": "Krishna",
+    "category": "mental_health"
+  },
+  {
+    "chapter": 3,
+    "verse": 8,
+    "translation": "Perform your prescribed duties, for action is superior to inaction. Without action, you cannot even maintain your physical body.",
+    "speaker": "Krishna",
+    "themes": ["duty", "action", "discipline"],
+    "emotions": ["confusion", "lack_of_purpose"],
+    "character": "Krishna",
+    "category": "purpose"
+  },
+  {
+    "chapter": 4,
+    "verse": 7,
+    "translation": "Whenever and wherever there is a decline in righteousness and a rise of unrighteousness, O Arjuna, I manifest myself.",
+    "speaker": "Krishna",
+    "themes": ["purpose", "faith"],
+    "emotions": ["hopelessness", "confusion"],
+    "character": "Krishna",
+    "category": "spirituality"
+  },
+  {
+    "chapter": 6,
+    "verse": 5,
+    "translation": "Elevate yourself through the power of your mind, and do not degrade yourself. The mind can be the best friend or the worst enemy.",
+    "speaker": "Krishna",
+    "themes": ["self_control", "discipline", "resilience"],
+    "emotions": ["self_doubt", "frustration"],
+    "character": "Krishna",
+    "category": "mental_health"
+  },
+  {
+    "chapter": 9,
+    "verse": 22,
+    "translation": "To those who are constantly devoted to serving me with love, I grant the understanding by which they can come to me.",
+    "speaker": "Krishna",
+    "themes": ["faith", "purpose"],
+    "emotions": ["loneliness", "hopelessness"],
+    "character": "Krishna",
+    "category": "spirituality"
+  },
+  {
+    "chapter": 12,
+    "verse": 13,
+    "translation": "One who is not envious but is a kind friend to all beings, who is free from possessiveness and false ego, who is equal in happiness and distress — such a devotee is dear to me.",
+    "speaker": "Krishna",
+    "themes": ["compassion", "forgiveness", "humility"],
+    "emotions": ["anger", "jealousy", "loneliness"],
+    "character": "Krishna",
+    "category": "relationships"
+  },
+  {
+    "chapter": 16,
+    "verse": 21,
+    "translation": "There are three gates to hell: lust, anger, and greed. Every wise person should abandon these three, for they lead to the degradation of the soul.",
+    "speaker": "Krishna",
+    "themes": ["self_control", "discipline"],
+    "emotions": ["anger", "frustration"],
+    "character": "Krishna",
+    "category": "ethics"
+  },
+  {
+    "chapter": 18,
+    "verse": 73,
+    "translation": "Arjuna said: My illusion is dispelled. I have regained my memory through your grace. I am now firm and free from doubt. I will act according to your word.",
+    "speaker": "Arjuna",
+    "themes": ["purpose", "courage", "surrender"],
+    "emotions": ["confusion", "fear", "hopelessness"],
+    "character": "Arjuna",
+    "category": "purpose"
+  }
+]
