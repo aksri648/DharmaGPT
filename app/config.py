@@ -24,8 +24,8 @@ class Settings(BaseSettings):
     llm_max_tokens: int = 2048
 
     # Embeddings
-    embedding_model: str = "BAAI/bge-m3"
-    embedding_dimensions: int = 1024
+    embedding_model: str = "text-embedding-3-small"
+    embedding_dimensions: int = 1536
 
     # Vector Store (PostgreSQL + pgvector)
     database_url: str = ""

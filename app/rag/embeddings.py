@@ -1,12 +1,12 @@
 from functools import lru_cache
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from app.config import settings
 
 
 @lru_cache(maxsize=1)
-def get_embeddings() -> HuggingFaceEmbeddings:
-    return HuggingFaceEmbeddings(
-        model_name=settings.embedding_model,
-        model_kwargs={"device": "cpu"},
-        encode_kwargs={"normalize_embeddings": True, "batch_size": 32},
+def get_embeddings() -> OpenAIEmbeddings:
+    return OpenAIEmbeddings(
+        model=settings.embedding_model,
+        openai_api_base=settings.llm_base_url,
+        openai_api_key=settings.llm_api_key or "sk-placeholder",
     )

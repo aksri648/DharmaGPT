@@ -22,11 +22,11 @@ services:
       - key: LLM_API_KEY
         value: ""
 
-      # Embeddings
+      # Embeddings (uses OpenAI-compatible API)
       - key: EMBEDDING_MODEL
-        value: BAAI/bge-m3
+        value: text-embedding-3-small
       - key: EMBEDDING_DIMENSIONS
-        value: "1024"
+        value: "1536"
 
       # Collections
       - key: PGVECTOR_COLLECTION_GITA
