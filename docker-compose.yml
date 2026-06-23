@@ -1,0 +1,71 @@
+services:
+  # PostgreSQL with pgvector
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: dharmagpt-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-dharmagpt}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Backend API
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: dharmagpt-api
+    restart: unless-stopped
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@db:5432/${POSTGRES_DB:-dharmagpt}
+      LLM_MODEL: ${LLM_MODEL:-qwen3:8b}
+      LLM_BASE_URL: ${LLM_BASE_URL:-http://host.docker.internal:11434/v1}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-text-embedding-3-small}
+      EMBEDDING_DIMENSIONS: ${EMBEDDING_DIMENSIONS:-1536}
+      PGVECTOR_COLLECTION_GITA: ${PGVECTOR_COLLECTION_GITA:-dharma_gita}
+      PGVECTOR_COLLECTION_RAMAYANA: ${PGVECTOR_COLLECTION_RAMAYANA:-dharma_ramayana}
+      PGVECTOR_COLLECTION_STORIES: ${PGVECTOR_COLLECTION_STORIES:-dharma_stories}
+      RETRIEVER_K: ${RETRIEVER_K:-5}
+      RETRIEVER_SCORE_THRESHOLD: ${RETRIEVER_SCORE_THRESHOLD:-0.5}
+      HYBRID_BM25_K: ${HYBRID_BM25_K:-10}
+      RRF_K: ${RRF_K:-60}
+      MAX_SELECTED_VERSES: ${MAX_SELECTED_VERSES:-3}
+      MAX_SELECTED_STORIES: ${MAX_SELECTED_STORIES:-2}
+      GRAPH_RECURSION_LIMIT: ${GRAPH_RECURSION_LIMIT:-25}
+      API_PREFIX: ${API_PREFIX:-/api/v1}
+      CORS_ORIGINS: ${CORS_ORIGINS:-["*"]}
+      CHAT_MESSAGE_MAX_LENGTH: ${CHAT_MESSAGE_MAX_LENGTH:-2000}
+      LOG_LEVEL: ${LOG_LEVEL:-info}
+    depends_on:
+      db:
+        condition: service_healthy
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  # Frontend (nginx)
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: dharmagpt-frontend
+    restart: unless-stopped
+    ports:
+      - "${FRONTEND_PORT:-80}:80"
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:
